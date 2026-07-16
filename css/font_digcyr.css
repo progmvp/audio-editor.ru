@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'digitalcyrillic';
+    src: url('fonts/digitalcyrillic.eot');
+    src: url('fonts/digitalcyrillic.eot') format('embedded-opentype'),
+    url('fonts/digitalcyrillic.ttf') format('truetype'),
+    url('fonts/digitalcyrillic.woff') format('woff'),
+    url('fonts/digitalcyrillic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

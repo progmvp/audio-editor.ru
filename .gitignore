@@ -1,0 +1,31 @@
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+
+# Uploads / cache
+uploads/
+upload/
+tmp/
+temp/
+cache/
+storage/
+
+# Environment
+.env
+
+# Node
+node_modules/
