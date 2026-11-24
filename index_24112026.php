@@ -1,23 +1,23 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 	<meta name="description" content="бесплатный онлайн-редактор аудио треков, компоновка музыкальных треков, работа с форматами wav и mp3, удаление фрагментов (сut audio), усиление звука (gain), постепенное появление (fade in), постепенное затухание (fade out), шумоподавление (noise reduction), компрессия (compressor), параграфический эквалайзер (paragraphic EQ), изменение скорости (change speed), удаление тишины (remove silence)">
 	<meta name="og:type" content="website">
-	<meta name="og:url" content="https://audio-editor.ru">
-	<meta name="og:image" content="https://audio-editor.ru/img/wave.png">
+	<meta name="og:url" content="https://mp3-wav.podberimuzyku.ru">
+	<meta name="og:image" content="https://mp3-wav.podberimuzyku.ru/img/wave.png">
 	<meta name="og:description" content="бесплатный онлайн-редактор аудио треков, компоновка музыкальных треков, работа с форматами wav и mp3, удаление фрагментов (сut audio), усиление звука (gain), постепенное появление (fade in), постепенное затухание (fade out), шумоподавление (noise reduction), компрессия (compressor), параграфический эквалайзер (paragraphic EQ), изменение скорости (change speed), удаление тишины (remove silence)">
 	<meta name="og:site_name" content="Бесплатный онлайн-редактор аудио треков">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:widgets:csp" content="on">
-	<meta name="twitter:url" content="https://audio-editor.ru">
+	<meta name="twitter:url" content="https://mp3-wav.podberimuzyku.ru">
 	<meta name="twitter:description" content="бесплатный онлайн-редактор аудио треков, компоновка музыкальных треков, работа с форматами wav и mp3, удаление фрагментов (сut audio), усиление звука (gain), постепенное появление (fade in), постепенное затухание (fade out), шумоподавление (noise reduction), компрессия (compressor), параграфический эквалайзер (paragraphic EQ), изменение скорости (change speed), удаление тишины (remove silence)">
 	<meta name="og:site_name" content="Бесплатный онлайн-редактор аудио треков">
 	<meta name="twitter:title" content="Бесплатный онлайн-редактор аудио треков">
 	<meta name="twitter:site" content="Main Website">
-	<meta name="twitter:image" content="https://audio-editor.ru/img/wave.png">
-	<meta name="thumbnail" content="https://audio-editor.ru/img/wave.png">
+	<meta name="twitter:image" content="https://mp3-wav.podberimuzyku.ru/img/wave.png">
+	<meta name="thumbnail" content="https://mp3-wav.podberimuzyku.ru/img/wave.png">
 	<title>Бесплатный Онлайн-Редактор Аудио Треков</title>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -40,14 +40,8 @@
     <?php include_once('inc/tags.php'); ?>	
 </head>
 <body>
-	<div class="referal-head">
-		<a href="https://www.reg.ru/domain/new/?rlink=reflink-28318225" target="_blank">Выгодная регистрация доменов 199 ₽ первый год.</a> | <a href="https://www.reg.ru/domain/new/?rlink=reflink-28318225" target="_blank">Заказать хостин. Регистрация домена на первый год бесплатно.</a>
-	</div>
-<?php include_once('inc/top_header.php'); ?>
-	<div class="content_logo">
-		<img src="img/logo_2023_400x225.svg" class="logo-img" />
-		<div class="app"></div>
-	</div>
+
+	<div class="app"></div>
 	<script defer="" src='build/bundle.js'></script>
 
 </body>
