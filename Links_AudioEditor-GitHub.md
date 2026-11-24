@@ -50,7 +50,7 @@
 [/audio-editor.ru/css/media_24112026.css](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/css/media_24112026.css)
 
 ### mobile-menu.css *(так файл называется на сервере)*
-[/audio-editor.ru/css/mobile-menu_24112026.css]([https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/css/media_24112026.css](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/css/mobile-menu_24112026.css)
+[/audio-editor.ru/css/mobile-menu_24112026.css](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/css/mobile-menu_24112026.css)
 
 ### wave.css *(так файл называется на сервере)*
 [/audio-editor.ru/css/wave_24112026.css](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/css/wave_24112026.css)
