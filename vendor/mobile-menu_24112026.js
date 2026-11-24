@@ -23,7 +23,7 @@
         var toggle = document.createElement('button');
         toggle.type = 'button';
         toggle.className = 'pk-mobile-menu-toggle';
-        toggle.textContent = '☰ Меню';
+        toggle.textContent = '☰ Функционал плеера';
         toggle.setAttribute('aria-expanded', 'false');
         toggle.setAttribute('aria-label', 'Открыть меню плеера');
 
@@ -48,7 +48,7 @@
             header.classList.remove('pk-mobile-menu-open');
             toggle.setAttribute('aria-expanded', 'false');
             toggle.setAttribute('aria-label', 'Открыть меню плеера');
-            toggle.textContent = '☰ Меню';
+            toggle.textContent = '☰ Функционал плеера';
         }
 
         toggle.addEventListener('click', function () {
@@ -66,7 +66,7 @@
                 isOpen ? 'Закрыть меню плеера' : 'Открыть меню плеера'
             );
 
-            toggle.textContent = isOpen ? '✕ Закрыть' : '☰ Меню';
+            toggle.textContent = isOpen ? '✕ Закрыть' : '☰ Функционал плеера';
         });
 
         backdrop.addEventListener('click', closeMenu);
