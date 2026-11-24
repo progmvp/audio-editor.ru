@@ -74,3 +74,9 @@
 - icomoon.svg
 - icomoon.ttf
 - icomoon.woff
+
+
+## /var/www/audio-editor.ru/vendor
+
+### mobile-menu_24112026.js *(так файл называется на сервере)*
+[/audio-editor.ru/vendor/mobile-menu_24112026.js](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/vendor/mobile-menu_24112026.js)
