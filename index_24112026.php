@@ -37,12 +37,15 @@
 	<link rel='stylesheet' href='css/media.css'>
 	<link rel='stylesheet' href='css/about.css'>
 	<link rel='stylesheet' href='build/bundle.css'>
+	<link rel='stylesheet' href='css/mobile-menu.css'>
     <?php include_once('inc/tags.php'); ?>	
 </head>
 <body>
 
 	<div class="app"></div>
 	<script defer="" src='build/bundle.js'></script>
+	<script defer="" src='vendor/cloudtips.js'></script>
+	<script defer="" src='vendor/cloudtips.js'></script>
 
 </body>
 </html>
