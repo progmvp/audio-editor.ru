@@ -1,0 +1,123 @@
+
+/* Выдвижное меню аудиоредактора — только мобильные устройства */
+.pk_hdr.mobile {
+    position: relative !important;
+    z-index: 10000 !important;
+    height: 42px !important;
+    padding: 0 !important;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    margin: 2px 0 0 12px;
+    padding: 0 16px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 7px;
+    background: #252a31;
+    color: #eeeeee;
+    font: 600 16px/1 Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    width: min(320px, 86vw);
+    max-height: 100vh;
+    max-height: 100dvh;
+    box-sizing: border-box;
+    padding: 54px 12px 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #252a31;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 8px 0 28px rgba(0, 0, 0, 0.4);
+    transform: translateX(-105%);
+    transition: transform 220ms ease;
+    visibility: hidden;
+}
+
+.pk_hdr.mobile.pk-mobile-menu-open .pk-mobile-menu-backdrop {
+    display: block;
+}
+
+.pk_hdr.mobile.pk-mobile-menu-open .pk-mobile-menu-panel {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel > .pk_btn {
+    display: block !important;
+    float: none !important;
+    position: relative !important;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 6px !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 6px;
+    text-align: left !important;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel > .pk_btn > button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px !important;
+    color: #eeeeee;
+    font-size: 17px !important;
+    text-align: left;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel .pk_btn .pk_menu {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100%;
+    min-width: 0 !important;
+    max-height: 48vh !important;
+    max-height: 48dvh !important;
+    box-sizing: border-box;
+    margin: 2px 0 8px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    border-radius: 5px;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel .pk_btn.pk_act .pk_menu {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel .pk_opt {
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+.pk_hdr.mobile .pk-mobile-menu-panel .pk_opt button {
+    font-size: 15px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .pk_hdr.mobile .pk-mobile-menu-panel {
+        transition: none;
+    }
+}
