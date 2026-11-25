@@ -45,7 +45,6 @@
 	<div class="app"></div>
 	<script defer="" src='build/bundle.js'></script>
 	<script defer="" src='vendor/mobile-menu.js'></script>
-	<script defer="" src='vendor/pmr-markers.js'></script>
 	<script defer="" src='vendor/cloudtips.js'></script>
 
 </body>
