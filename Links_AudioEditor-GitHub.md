@@ -1,4 +1,4 @@
-# Все файлы на GitHab актуальны на момент 24 октября 2026 года. На сервере находятся идентичные.
+# Все файлы на GitHab актуальны на момент 25 ноября 2026 года. На сервере находятся идентичные.
 
  (*в случае замены кода дата в названии будет изменятся на новую*) 
 
@@ -8,7 +8,7 @@
 ## /var/www/audio-editor.ru/
 
 ### index.php *(так файл называется на сервере)*
-[/audio-editor.ru/css/index_24112026.php](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/index_24112026.php)
+[/audio-editor.ru/css/index_25112026.php](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/main/index_24112026.php)
 
 
 ---
