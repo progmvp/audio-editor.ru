@@ -46,6 +46,9 @@
 
         function closeMenu() {
             header.classList.remove('pk-mobile-menu-open');
+
+            menuItems[0].classList.remove('pk_act');
+
             toggle.setAttribute('aria-expanded', 'false');
             toggle.setAttribute('aria-label', 'Открыть меню плеера');
             toggle.textContent = '☰ Функционал плеера';
@@ -66,12 +69,26 @@
                 isOpen ? 'Закрыть меню плеера' : 'Открыть меню плеера'
             );
 
-            toggle.textContent = isOpen ? '✕ Закрыть' : '☰ Функционал плеера';
+            toggle.textContent = isOpen
+                ? '✕ Закрыть'
+                : '☰ Функционал плеера';
+
+            if (isOpen) {
+                menuItems[0].classList.add('pk_act');
+            } else {
+                menuItems[0].classList.remove('pk_act');
+            }
         });
 
         backdrop.addEventListener('click', closeMenu);
 
         panel.addEventListener('click', function (event) {
+            var section = event.target.closest('.pk_btn');
+
+            if (section && section !== menuItems[0]) {
+                menuItems[0].classList.remove('pk_act');
+            }
+
             if (event.target.closest('.pk_opt')) {
                 window.setTimeout(closeMenu, 0);
             }
