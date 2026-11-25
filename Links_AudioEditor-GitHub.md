@@ -78,5 +78,8 @@
 
 ## /var/www/audio-editor.ru/vendor
 
+### pmr-markers_25112026.js *(новый файл; на сервере vendor/pmr-markers.js)*
+[/audio-editor.ru/vendor/pmr-markers_25112026.js](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/feature/audio-markers-2/vendor/pmr-markers_25112026.js)
+
 ### mobile-menu_24112026.js *(так файл называется на сервере)*
 [/audio-editor.ru/vendor/mobile-menu_24112026.js](https://raw.githubusercontent.com/progmvp/audio-editor.ru/refs/heads/feature/audio-markers-2/vendor/mobile-menu_24112026.js)
